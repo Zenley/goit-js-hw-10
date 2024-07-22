@@ -1,0 +1,34 @@
+.hide {
+    display: none;
+}
+
+.loader {
+    color: blue;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.cat-info {
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.cat-info img {
+    max-width: 40%;
+    height: auto;
+
+}
+
+.cat-info div {
+    max-width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
