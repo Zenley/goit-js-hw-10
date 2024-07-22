@@ -5,7 +5,9 @@
   "homepage": "https://goitacademy.github.io/parcel-project-template",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build index.html --out-dir dist",
+    "deploy": "gh-pages -d dist"
+
   },
   "repository": {
     "type": "git",
